@@ -1,23 +1,23 @@
 # Download and flash the image
 You can use disks built into ubuntu
 <p align="center">
-    <img title="disk1" src="../Images/disks.png" width="60%"/>
+    <img title="disk1" src="Images/disks.png" width="60%"/>
 </p>
 <p align="center">
-    <img title="disk2" src="../Images/disks_flash.png" width="60%"/>
+    <img title="disk2" src="Images/disks_flash.png" width="60%"/>
 </p>
 <p align="center">
-    <img title="disk3" src="../Images/disks_flash_2.png" width="60%"/>
+    <img title="disk3" src="Images/disks_flash_2.png" width="60%"/>
 </p>
 
 # Boot the pi 
 The user is elephant and has a static IP of `10.3.14.59` and password of `trunk`. If you want to remote access then you can `ssh elephant@10.3.14.59`.
 Check the network on the pi, it should be set up as below.
 <p align="center">
-    <img title="Network" src="../Images/Network.png" width="60%"/>
+    <img title="Network" src="Images/Network.png" width="60%"/>
 </p>
 <p align="center">
-    <img title="Network" src="../Images/Network_mani_pi.png" width="60%"/>
+    <img title="Network" src="Images/Network_mani_pi.png" width="60%"/>
 </p>
 
 # Update the bashrc of the pi
@@ -79,7 +79,7 @@ echo "To change this automation, use nano to edit ~/.bashrc and the source ~/.ba
 We're doing a wired peer to peer network using static IPs.
 Set up the laptop with the below.
 <p align="center">
-    <img title="disk3" src="../Images/Network_Laptop.png" width="60%"/>
+    <img title="disk3" src="Images/Network_Laptop.png" width="60%"/>
 </p>
 If you previously set up a network config with the previous guidance run the below
 ```
